@@ -1,0 +1,30 @@
+.conversation {
+    padding: 20px;
+    background-image: url("https://www.your-image-url.com");
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.message.me {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+.message.other {
+    background-color: #f8f8f8;
+    color: #333;
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+}
