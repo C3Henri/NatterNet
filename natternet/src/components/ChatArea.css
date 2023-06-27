@@ -1,30 +1,71 @@
-.conversation {
-    padding: 20px;
-    background-image: url("https://www.your-image-url.com");
+.chatArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
     background-size: cover;
-    height: 100vh;
+}
+
+.messages {
+    flex: 1;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .message {
     margin: 10px 0;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .message.me {
-    background-color: #007bff;
-    color: white;
     align-self: flex-end;
-    text-align: right;
-    margin-left: auto;
+    background-color: #0084ff;
+    color: white;
 }
 
 .message.other {
-    background-color: #f8f8f8;
-    color: #333;
     align-self: flex-start;
-    text-align: left;
-    margin-right: auto;
+    background-color: #f1f0f0;
+    color: black;
+}
+
+.inputArea {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.inputArea input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.inputArea .sendButton {
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputArea .sendButton:hover {
+    background-color: #cfcfcf;
+}
+
+.inputArea .sendIcon {
+    color: #0084ff;
 }

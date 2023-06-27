@@ -19,26 +19,26 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <div className="welcome-section">
-        <Title>Welcome to NatterNet</Title>
-        <p>Providing freedom and plurality of ideas without compromising the simplicity and practicality of the app.</p>
-      </div>
-      <div className="login-section">
-        <Form onFinish={handleLogin}>
-          <Form.Item name="email" rules={[{ required: true, message: 'Please input your email!' }]}>
-            <Input placeholder="Email" />
-          </Form.Item>
-          <Form.Item name="password" rules={[{ required: true, message: 'Please input your password!' }]}>
-            <Input.Password placeholder="Password" />
-          </Form.Item>
-          <Form.Item>
-            <Button type="primary" htmlType="submit">
-              Login
+        <Title>Bem-vindo ao NatterNet</Title>
+        <p>Proporcionando liberdade e pluralidade de ideias sem abrir mão da simplicidade e praticidade do app.</p>
+      </div> 
+      <div className="login-section"> 
+        <Form onFinish={handleLogin}> 
+          <Form.Item name="email" rules={[{ required: true, message: 'Por favor insira seu E-mail!' }]}>
+            <Input placeholder="Email" /> 
+          </Form.Item> 
+          <Form.Item name="password" rules={[{ required: true, message: 'Por favor insira sua senha!' }]}>
+            <Input.Password placeholder="Password" /> 
+          </Form.Item> 
+          <Form.Item> 
+            <Button type="primary" htmlType="submit"> 
+              Entrar
             </Button>
             <Button type="link" onClick={() => setIsRegisterModalVisible(true)}>
-              Register
+              Registrar-se
             </Button>
             <Button type="link" onClick={() => setIsForgotPasswordModalVisible(true)}>
-              Forgot Password?
+              Esqueceu sua Senha?
             </Button>
           </Form.Item>
         </Form>

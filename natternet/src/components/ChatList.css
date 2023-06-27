@@ -1,71 +1,82 @@
 .chatList {
     width: 30%;
     height: 100%;
-    background-color: #f5f5f5;
+    background-color: #2b2f3a;
+    padding: 0 20px;
+    box-sizing: border-box;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .chatListHeader {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
-    border-bottom: 1px solid #ddd;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.settingsButton,
+.addButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #bbb;
+    font-size: 24px;
+    transition: color 0.2s ease-in-out;
+}
+
+.settingsButton:hover,
+.addButton:hover {
+    color: #fff;
 }
 
 .chatListSearch {
     display: flex;
     align-items: center;
-    background-color: white;
-    padding: 0.5em 1em;
-    border-radius: 30px;
-    flex-grow: 1;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 20px;
+    color: #bbb;
+    width: 70%;
 }
 
-.searchIcon {
-    color: #888;
-    margin-right: 0.5em;
+.chatListSearch .searchIcon {
+    margin-right: 10px;
 }
 
-.addButton {
-    background-color: white;
+.chatListSearch .chatListInput {
     border: none;
-    border-radius: 50%;
-    padding: 0.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1em;
-}
-
-.addIcon {
-    color: #888;
+    background: none;
+    color: #fff;
+    outline: none;
+    width: 100%;
 }
 
 .chatItemsContainer {
-    flex-grow: 1;
-    padding: 1em;
-    overflow-y: auto;
+    margin-top: 20px;
 }
 
 .chatItem {
     display: flex;
     align-items: center;
-    padding: 1em 0;
+    padding: 15px 20px;
     cursor: pointer;
+    background-color: #2b2f3a;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .chatItem:hover {
-    background-color: #ddd;
+    background-color: #444;
 }
 
 .chatIcon {
-    color: #888;
-    margin-right: 1em;
+    margin-right: 15px;
+    color: #fff;
 }
 
 .chatName {
     font-size: 1em;
-    color: #333;
+    color: #fff;
 }
