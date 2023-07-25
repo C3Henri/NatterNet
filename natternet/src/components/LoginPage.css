@@ -1,48 +1,47 @@
-/* LoginPage.css */
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
-  
-  .login-page {
-    display: flex;
-    height: 100vh; /* Faz a página de login ocupar toda a altura da tela */
-  }
-  
-  .welcome-section, .login-section {
-    width: 50%;
-    padding: 40px; /* Adiciona mais padding para uma sensação mais espaçosa */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .welcome-section {
-    background-color: #4C73FF; /* Adiciona uma cor de fundo agradável para a seção de boas-vindas */
-    color: white; /* Faz o texto ser branco para contraste */
-  }
-  
-  .login-section {
-    background-color: white;
-  }
-  
-  .login-section form {
-    width: 100%; /* Faz o formulário ocupar toda a largura disponível */
-    max-width: 300px; /* Mas limita a largura a um valor máximo para grandes telas */
-  }
-  
-  .login-section form .ant-form-item {
-    margin-bottom: 20px; /* Adiciona espaço entre campos do formulário */
-  }
-  
-  .login-section form .ant-btn-primary {
-    width: 100%; /* Faz o botão ocupar toda a largura do formulário */
-  }
-  
-  .login-section form .ant-btn-primary:hover {
-    background-color: #4C73FF; /* Muda a cor de fundo quando o botão é passado pelo mouse para dar feedback ao usuário */
-    border-color: #4C73FF;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #DDDDDD;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.welcome-section, .login-section {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section {
+  background-color: #003B5C;
+  color: #FFFFFF;
+}
+
+.login-section {
+  background-color: #FFFFFF;
+}
+
+.login-section form {
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-section form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.login-section form .ant-btn-primary {
+  width: 100%;
+  background-color: #0074D9;
+  border-color: #0074D9;
+}
+
+.login-section form .ant-btn-primary:hover {
+  background-color: #7FDBFF;
+  border-color: #7FDBFF;
+}

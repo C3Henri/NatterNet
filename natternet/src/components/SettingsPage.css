@@ -1,0 +1,90 @@
+.settingsPage {
+    height: 100vh;
+    background-color: #DDDDDD;
+}
+
+.settingsSider .ant-menu {
+    height: 100%;
+    background-color: #003B5C;
+}
+
+.settingsSider .ant-menu-item {
+    color: #FFFFFF;
+}
+
+.settingsSider .ant-menu-item:hover {
+    color: #7FDBFF;
+    background-color: #0074D9;
+}
+
+.settingsSider .ant-menu-item-selected {
+    color: #7FDBFF;
+    background-color: #0074D9;
+}
+
+.settingsSider .anticon {
+    font-size: 20px;
+}
+
+.settingsSider .backIcon {
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.settingsSider .backIconPlaceholder {
+    width: 24px;
+    height: 24px;
+}
+
+.settingsSider .siderHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: #0074D9;
+}
+
+.settingsSider .trigger {
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.settingsSider .trigger:hover {
+    color: #7FDBFF;
+}
+
+.settingsContent {
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #003B5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsForm {
+    width: 50%;
+}
+
+.settingsForm .ant-form-item {
+    margin-bottom: 20px;
+}
+
+.settingsForm .ant-btn-primary {
+    width: 100%;
+    background-color: #0074D9;
+    border-color: #0074D9;
+}
+
+.settingsForm .ant-btn-primary:hover {
+    background-color: #003B5C;
+    border-color: #003B5C;
+}
+
+.largeInput .ant-input {
+    height: 40px;
+    width: 50%;
+}

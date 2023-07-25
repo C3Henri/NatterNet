@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    background-color: #DDDDDD;
     background-size: cover;
 }
 
@@ -24,20 +25,20 @@
 
 .message.me {
     align-self: flex-end;
-    background-color: #0084ff;
+    background-color: #0074D9;
     color: white;
 }
 
 .message.other {
     align-self: flex-start;
-    background-color: #f1f0f0;
+    background-color: #7FDBFF;
     color: black;
 }
 
 .inputArea {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 20px;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -50,7 +51,7 @@
 }
 
 .inputArea .sendButton {
-    background-color: #e8e8e8;
+    background-color: #DDDDDD;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -63,9 +64,9 @@
 }
 
 .inputArea .sendButton:hover {
-    background-color: #cfcfcf;
+    background-color: #7FDBFF;
 }
 
 .inputArea .sendIcon {
-    color: #0084ff;
+    color: #0074D9;
 }

@@ -1,7 +1,7 @@
 .chatList {
     width: 30%;
     height: 100%;
-    background-color: #2b2f3a;
+    background-color: #003B5C;
     padding: 0 20px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .settingsButton,
@@ -20,23 +20,23 @@
     background: none;
     border: none;
     cursor: pointer;
-    color: #bbb;
+    color: #7FDBFF;
     font-size: 24px;
     transition: color 0.2s ease-in-out;
 }
 
 .settingsButton:hover,
 .addButton:hover {
-    color: #fff;
+    color: #0074D9;
 }
 
 .chatListSearch {
     display: flex;
     align-items: center;
-    background-color: #444;
+    background-color: #0074D9;
     padding: 10px;
     border-radius: 20px;
-    color: #bbb;
+    color: #FFFFFF;
     width: 70%;
 }
 
@@ -47,7 +47,7 @@
 .chatListSearch .chatListInput {
     border: none;
     background: none;
-    color: #fff;
+    color: #FFFFFF;
     outline: none;
     width: 100%;
 }
@@ -61,22 +61,22 @@
     align-items: center;
     padding: 15px 20px;
     cursor: pointer;
-    background-color: #2b2f3a;
+    background-color: #003B5C;
     margin-bottom: 10px;
     border-radius: 15px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .chatItem:hover {
-    background-color: #444;
+    background-color: #0074D9;
 }
 
 .chatIcon {
     margin-right: 15px;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .chatName {
     font-size: 1em;
-    color: #fff;
+    color: #FFFFFF;
 }
