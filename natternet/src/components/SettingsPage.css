@@ -1,114 +1,90 @@
 .settingsPage {
-    padding: 20px;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #f5f5f5;
+    background-color: #DDDDDD;
 }
 
-.settingsHeader {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+.settingsSider .ant-menu {
+    height: 100%;
+    background-color: #003B5C;
 }
 
-.backButton {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
+.settingsSider .ant-menu-item {
+    color: #FFFFFF;
 }
 
-.backIcon {
-    color: #0084ff;
+.settingsSider .ant-menu-item:hover {
+    color: #7FDBFF;
+    background-color: #0074D9;
+}
+
+.settingsSider .ant-menu-item-selected {
+    color: #7FDBFF;
+    background-color: #0074D9;
+}
+
+.settingsSider .anticon {
+    font-size: 20px;
+}
+
+.settingsSider .backIcon {
     font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
-.settingsBody {
-    flex-grow: 1;
-    display: flex;
-    background-color: white;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
+.settingsSider .backIconPlaceholder {
+    width: 24px;
+    height: 24px;
 }
 
-.settingsOptions {
-    flex: 0 0 30%;
+.settingsSider .siderHeader {
     display: flex;
-    flex-direction: column;
-    background-color: #f5f5f5;
-    border-right: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: #0074D9;
+}
+
+.settingsSider .trigger {
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.settingsSider .trigger:hover {
+    color: #7FDBFF;
 }
 
 .settingsContent {
-    flex-grow: 1;
     padding: 20px;
+    background-color: #FFFFFF;
+    color: #003B5C;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.introMessage {
-    color: #666;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+.settingsForm {
+    width: 50%;
+}
+
+.settingsForm .ant-form-item {
     margin-bottom: 20px;
 }
 
-.settingsItem {
-    padding: 20px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.2s ease, color 0.2s ease;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-}
-
-.settingsItem:hover {
-    background-color: #eee;
-    color: #0084ff;
-}
-
-.settingsItem.selected {
-    background-color: #eee;
-    color: #0084ff;
-    font-weight: bold;
-}
-
-.contentForm .inputGroup {
-    margin-bottom: 20px;
-}
-
-.contentForm label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.contentForm .inputField {
+.settingsForm .ant-btn-primary {
     width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    background-color: #0074D9;
+    border-color: #0074D9;
 }
 
-.contentForm button {
-    background-color: #0084ff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%;
+.settingsForm .ant-btn-primary:hover {
+    background-color: #003B5C;
+    border-color: #003B5C;
 }
 
-.contentForm button:hover {
-    background-color: #0073e6;
+.largeInput .ant-input {
+    height: 40px;
+    width: 50%;
 }
